@@ -30,7 +30,7 @@ class App extends Component {
 
     const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
     const data =await api_call.json();
-    console.log(data);
+
     
     if(country && city){
 
@@ -62,17 +62,28 @@ class App extends Component {
     const{temperature,city,country,humidity,description,error} = this.state;
     
     return (
-      <div className="App">
-        Hello
-        <Title />
-        <Form getWeather = {this.getWeather} />
-        <Weather  
-          temperature = {temperature}
-          city = {city}
-          country = {country}
-          humidity = {humidity}
-          description = {description}
-          error = {error}/>
+      <div >
+        <div className="wrapper">
+          <div className="main">
+             <div className="container"> 
+               <div className="row1">
+                  <div className="col-xs-5 title-container">
+                  <Title />
+                  </div>
+                  <div className="col-xs-7 form-container">
+                  <Form getWeather = {this.getWeather} />
+                  <Weather  
+                    temperature = {temperature}
+                    city = {city}
+                    country = {country}
+                    humidity = {humidity}
+                    description = {description}
+                    error = {error}/>
+                  </div>
+               </div>
+             </div>
+          </div>
+        </div>
       </div>
     );
   }}
