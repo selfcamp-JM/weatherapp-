@@ -8,10 +8,10 @@
   "runtime~main.js": "/weatherapp-/static/js/runtime~main.f1b2dc97.js",
   "runtime~main.js.map": "/weatherapp-/static/js/runtime~main.f1b2dc97.js.map",
   "static/media/App.css": "/weatherapp-/static/media/bg.b6796c73.jpg",
-  "static/media/bootstrap.min.css": "/weatherapp-/static/media/glyphicons-halflings-regular.fa277232.woff",
+  "static/media/bootstrap.min.css": "/weatherapp-/static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/css/main.64945e5d.chunk.css.map": "/weatherapp-/static/css/main.64945e5d.chunk.css.map",
   "static/css/1.8cdf5816.chunk.css.map": "/weatherapp-/static/css/1.8cdf5816.chunk.css.map",
   "index.html": "/weatherapp-/index.html",
-  "precache-manifest.3febeec5dc3878664d3f249fb74e3fc6.js": "/weatherapp-/precache-manifest.3febeec5dc3878664d3f249fb74e3fc6.js",
+  "precache-manifest.20dc9e47cc8e92d09d57db2fe213f8ea.js": "/weatherapp-/precache-manifest.20dc9e47cc8e92d09d57db2fe213f8ea.js",
   "service-worker.js": "/weatherapp-/service-worker.js"
 }
